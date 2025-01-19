@@ -1,0 +1,23 @@
+<div class="row">
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner d-flex justify-content-center align-items-center">
+            <div class="carousel-item active"></div>
+                <img src="https://www.apple.com/newsroom/images/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/tile/Apple-iPhone-15-Pro-lineup-hero-230912.jpg.news_app_ed.jpg" class="d-block" alt="iPhone 15 Pro">
+            </div>
+            <div class="carousel-item">
+                <img src="https://d3m9l0v76dty0.cloudfront.net/system/photos/15428483/large/8a126e4d0e5410e39a9e3ba08adddf71.jpg" class="d-block" alt="iPhone 16">
+            </div>
+            <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnpgPkm8TTYRTnzn3UFepOMs-YP37pATCVCA&s" class="d-block" alt="iPhone 16 Pro Max">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
