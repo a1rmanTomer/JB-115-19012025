@@ -17,8 +17,6 @@ body {
 }
 
 /* start */
-
-.carousel-item img {
-  height: 5dvh;
-  aspect-ratio: 1 / 1;
+#logo {
+  border-radius: 33%;
 }
