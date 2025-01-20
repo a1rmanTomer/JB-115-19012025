@@ -9,6 +9,9 @@
   color: black;
   font-family: "Roboto", "Heebo";
 }
+.navbar h1 {
+  text-align: center;
+}
 
 body {
   height: 100dvh;
@@ -19,4 +22,9 @@ body {
 /* start */
 #logo {
   border-radius: 33%;
+}
+
+#carousel {
+  height: 20dvh;
+  width: 100%;
 }
