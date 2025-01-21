@@ -6,7 +6,6 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  color: black;
   font-family: "Roboto", "Heebo";
 }
 .navbar h1 {
@@ -17,6 +16,7 @@ body {
   height: 100dvh;
   width: 100dvw;
   background-color: #e0e0e0;
+  overflow-x: hidden;
 }
 
 /* start */
@@ -25,6 +25,13 @@ body {
   height: 50px;
 }
 
-.carousel-item {
-  height: 75vh;
+carousel,
+#carouselExample,
+.carousel-inner {
+  max-height: 70dvh;
+}
+
+.carousel img {
+  height: 70dvh;
+  width: 100%;
 }
