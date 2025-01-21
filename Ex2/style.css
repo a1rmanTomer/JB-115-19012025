@@ -16,18 +16,15 @@
 body {
   height: 100dvh;
   width: 100dvw;
-  background-color: #d2d2d2;
+  background-color: #e0e0e0;
 }
 
 /* start */
 #logo {
   border-radius: 50%;
-}
-
-.carousel-inner {
-  width: fit-content;
+  height: 50px;
 }
 
 .carousel-item {
-  height: 20vh;
+  height: 75vh;
 }
