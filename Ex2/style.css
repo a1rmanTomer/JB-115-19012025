@@ -35,3 +35,12 @@ carousel,
   height: 70dvh;
   width: 100%;
 }
+
+#one,
+#two,
+#three {
+  min-height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
