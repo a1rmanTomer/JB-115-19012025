@@ -21,5 +21,13 @@ body {
 
 /* start */
 #logo {
-  border-radius: 33%;
+  border-radius: 50%;
+}
+
+.carousel-inner {
+  width: fit-content;
+}
+
+.carousel-item {
+  height: 20vh;
 }
